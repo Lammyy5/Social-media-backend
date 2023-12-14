@@ -4,7 +4,7 @@ const {
 	getThoughtsById,
 	createThought,
 	deleteThought,
-} = require('../../controllers/thoughts');
+} = require('/Users/mar/Bootcamp/Homework-Projects/HW18/Social-media-backend/controllers/thought.js')
 
 router.route('/')
 .get(getAllThoughts)

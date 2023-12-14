@@ -4,8 +4,8 @@ const {
 	getUserById,
 	createUser,
 	deleteUserById,
-    updateUserById,
-} = require('../../controllers/user')
+	updateUserById,
+} = require('/Users/mar/Bootcamp/Homework-Projects/HW18/Social-media-backend/controllers/user.js')
 
 router.route('/')
 .get(getAllUsers)
